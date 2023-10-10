@@ -10,6 +10,7 @@ public class Tester {
 	i1.accept();
 	double totalBill = i1.totalInvoice();
 	System.out.println("total bill is " + totalBill);
+	
 	}
 
 }

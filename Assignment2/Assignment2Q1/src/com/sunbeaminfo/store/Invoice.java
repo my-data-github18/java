@@ -27,37 +27,37 @@ public Invoice() {
 		this.itemPrice = itemPrice;
 	}
 
-	public String getPartNumber() {
-		return partNumber;
-	}
-
-	public void setPartNumber(String partNumber) {
-		this.partNumber = partNumber;
-	}
-
-	public String getPartDescription() {
-		return partDescription;
-	}
-
-	public void setPartDescription(String partDescription) {
-		this.partDescription = partDescription;
-	}
-
-	public int getQuantity() {
-		return quantity;
-	}
-
-	public void setQuantity(int quantity) {
-		this.quantity = quantity;
-	}
-
-	public double getItemPrice() {
-		return itemPrice;
-	}
-
-	public void setItemPrice(double itemPrice) {
-		this.itemPrice = itemPrice;
-	}
+//	public String getPartNumber() {
+//		return partNumber;
+//	}
+//
+//	public void setPartNumber(String partNumber) {
+//		this.partNumber = partNumber;
+//	}
+//
+//	public String getPartDescription() {
+//		return partDescription;
+//	}
+//
+//	public void setPartDescription(String partDescription) {
+//		this.partDescription = partDescription;
+//	}
+//
+//	public int getQuantity() {
+//		return quantity;
+//	}
+//
+//	public void setQuantity(int quantity) {
+//		this.quantity = quantity;
+//	}
+//
+//	public double getItemPrice() {
+//		return itemPrice;
+//	}
+//
+//	public void setItemPrice(double itemPrice) {
+//		this.itemPrice = itemPrice;
+//	}
 	void accept() {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter part number");
