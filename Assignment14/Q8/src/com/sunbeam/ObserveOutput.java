@@ -10,7 +10,7 @@ public class ObserveOutput {
 		System.out.println(sum);
 		
 	IntStream s2 = IntStream.range(1, 10);
-	System.out.println(s2.summaryStatistics());
+	System.out.println();
 	}
 
 }
