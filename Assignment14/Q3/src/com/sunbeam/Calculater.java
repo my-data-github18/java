@@ -28,25 +28,25 @@ public class Calculater {
 
 			choice = sc.nextInt();
 			System.out.println("Enter first number");
-			double n1 = sc.nextDouble();
+			double num1 = sc.nextDouble();
 			System.out.println("Enter second number");
-			double n2 = sc.nextDouble();
+			double num2 = sc.nextDouble();
 
 			switch (choice) {
 			case 1: {
 
-				calculate(n1, n2, (a, b) -> a + b);
+				calculate(num1, num2, (a, b) -> a + b);
 			}
 				break;
 
 			case 2:
-				calculate(n1, n2, (a, b) -> a - b);
+				calculate(num1, num2, (a, b) -> a - b);
 				break;
 			case 3:
-				calculate(n1, n2, (a, b) -> a * b);
+				calculate(num1, num2, (a, b) -> a * b);
 				break;
 			case 4:
-				calculate(n1, n2, (a, b) -> a / b);
+				calculate(num1, num2, (a, b) -> a / b);
 				break;
 			case 0:
 				System.exit(0);
