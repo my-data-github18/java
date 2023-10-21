@@ -5,7 +5,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.util.Scanner;
 
-public class Read4Line {
+public class Write4Line {
 
 public static void main(String[] args) {
 String s;
