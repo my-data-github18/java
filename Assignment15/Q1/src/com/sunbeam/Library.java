@@ -117,7 +117,7 @@ System.out.println(k);
 
 break;
 case 7:
-try(FileOutputStream fout = new FileOutputStream("movies.bin")) {
+try(FileOutputStream fout = new FileOutputStream("Book.bin")) {
 	try(DataOutputStream dout = new DataOutputStream(fout)) {
 		for(Book m : list) {
 			dout.writeUTF(m.getIsbn());
@@ -131,12 +131,12 @@ catch (Exception e) {
 	e.printStackTrace();
 }
 
-System.out.println("Movies saved.");
+System.out.println("Books saved.");
 
 break;
 
 case 8:
-	try(FileInputStream fin = new FileInputStream("movies.bin")) {
+	try(FileInputStream fin = new FileInputStream("Book.bin")) {
 		try(DataInputStream din = new DataInputStream(fin)) {
 			while(true) {
 				Book m = new Book();
